@@ -10,8 +10,12 @@ Uses commons-math3-3.5.jar avaibalbe http://mvnrepository.com/artifact/org.apach
 
 Run Master:
 The program will first prompt you for the name of the file you would like to use to train along with the number of teams in that file.
+
 There are 4 files that we have written the program to be able to use: EastHopper.txt, EastTesla.txt, WestGold.txt, and WestSilicon.txt. 
+
 All of these files have 36 teams.
+
 After entering this information about the first while, the program will say "Running..." and soon prompt for information about the text file to predict matches for.
+
 You can use any of the 4 previous text files or Edison.txt or Franklin.txt to test the prediction ability.
 Edison.txt and Frankin.txt have 64 teams in them.
