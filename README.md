@@ -6,9 +6,9 @@ This program uses scores from FTC Super Regionals competitions creates matrices 
 
 This program runs data from last years FTC Super Regionals competitions. This could easily be adjusted to use more recent data as well, as using more data than what we currently use. In addition, the more times you train the network the more accurate it should be. The prediction capabilities of this program is currently very limited however, with more data and more statistics it could become more capable of predicting matches. 
 
-Uses stdlib-package.jar available http://introcs.cs.princeton.edu/java/stdlib/stdlib-package.jar
+Uses stdlib-package.jar available here: http://introcs.cs.princeton.edu/java/stdlib/stdlib-package.jar
 
-Uses commons-math3-3.5.jar avaibalbe http://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.5
+Uses commons-math3-3.5.jar available here: http://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.5
 
 Run Master:
 The program will first prompt you for the name of the file you would like to use to train along with the number of teams in that file.
