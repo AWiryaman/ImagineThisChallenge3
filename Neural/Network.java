@@ -21,7 +21,7 @@ public class Network {
 	 *            Number of output neurons.
 	 */
 	public Network(int in, int hid, int out) {
-		// TODO You have to do this one
+		
 		inputLayer = new InputNeuron[in];
 		for(int i=0; i<in; i++) {
 			inputLayer[i] = new InputNeuron();
@@ -41,7 +41,7 @@ public class Network {
 	 * output 2.
 	 */
 	protected Neuron getNeuron(int layer, int index) {
-		// TODO You have to do this one
+		
 		if(layer==0)
 			return inputLayer[index];
 		else if(layer==1)
@@ -69,7 +69,7 @@ public class Network {
 
 	/** Feeds inputs through the network, updating the output of each neuron. */
 	public double[] run(double[] inputs) {
-		// TODO You have to do this one
+		
 		//System.out.println("Inputs: " + inputs[0] + " " + inputs[1]);
 		double[] outputs = new double[outputLayer.length];
 		for(int j=0; j<inputLayer.length; j++) {
@@ -111,7 +111,7 @@ public class Network {
 	 * with something closer to the correct outputs.
 	 */
 	public void train(double[] inputs, double[] correct) {
-		// TODO You have to do this one
+		
 		// This is a long method, with the following steps:
 		// Feed the input forward through the network
 		// Update deltas for output layer
