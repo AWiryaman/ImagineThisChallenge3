@@ -15,7 +15,7 @@ public class SigmoidNeuron extends Neuron {
 	private double delta;
 	
 	public SigmoidNeuron(Neuron[] inputs) {
-		// TODO You have to do this one
+		
 		// All weights (including the bias) should be distributed
 		// uniformly in the range [-0.1, 0.1).
 		super(inputs, null, 0.0);
@@ -39,13 +39,13 @@ public class SigmoidNeuron extends Neuron {
 	
 	@Override
 	protected double squash(double sum) {
-		// TODO You have to do this one
+		
 		return 1.0/(1.0+Math.exp(-sum));
 	}
 
 	/** Updates the weights for this neuron to minimize error. Assumes delta has been set. */
 	public void updateWeights() {
-		// TODO You have to do this one
+		
 		//System.out.print("Before: " + toString());
 		double[] weights = getWeights();
 		for(int i=0; i<weights.length; i++)
